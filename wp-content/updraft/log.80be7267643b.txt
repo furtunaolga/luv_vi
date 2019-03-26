@@ -1,0 +1,105 @@
+0000.001 (0) Opened log file at time: Tue, 05 Mar 2019 13:30:26 +0000 on http://wordpress
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.6 WP: 5.1 PHP: 5.5.38 (apache2handler, Windows NT DESKTOP-C90F9KN 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.6.41 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 24.9M | 25M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 597494.9 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 0 (schedule: unset)
+0000.029 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.048 (0) Set semaphore last lock (f) time to 2019-03-05 13:30:26
+0000.050 (0) Semaphore lock (f) complete
+0000.056 (0) Backup run: resumption=0, nonce=80be7267643b, file_nonce=80be7267643b begun at=1551792626 (0s ago), job type=backup
+0000.059 (0) Scheduling a resumption (1) after 300 seconds (1551792926) in case this run gets aborted
+0000.098 (0) Checking if we have a zip executable available
+0000.100 (0) Creation of backups of directories: beginning
+0000.104 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.610 (0) Total entities for the zip file: 269 directories, 1781 files (0 skipped as non-modified), 34.3 MB
+0000.629 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.646 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.670 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.689 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.706 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.707 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.9 MB, 1781 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0007.151 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 600 files added (on-disk size: 3547.7 KB)
+0007.166 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 700 files added (on-disk size: 3547.7 KB)
+0007.183 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 800 files added (on-disk size: 3547.7 KB)
+0007.201 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 900 files added (on-disk size: 3547.7 KB)
+0007.218 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 1000 files added (on-disk size: 3547.7 KB)
+0007.220 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.1 MB, 1781 files batched, 501 (1002) added so far); re-opening (prior size: 3547.7 KB)
+0014.490 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 1100 files added (on-disk size: 8147.1 KB)
+0014.509 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 1200 files added (on-disk size: 8147.1 KB)
+0014.528 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 1300 files added (on-disk size: 8147.1 KB)
+0014.548 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 1400 files added (on-disk size: 8147.1 KB)
+0014.568 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 1500 files added (on-disk size: 8147.1 KB)
+0014.570 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 1781 files batched, 501 (1503) added so far); re-opening (prior size: 8147.1 KB)
+0021.480 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 1600 files added (on-disk size: 9099.1 KB)
+0021.501 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip.tmp: 1700 files added (on-disk size: 9099.1 KB)
+0025.065 (0) Created plugins zip (0) - 10252.8 KB in 25 s (410.8 KB/s) (sha1: e178bc84c4f47dcc071d220451d0aecac24b33d0, sha256: 02548e0f9784fc8f9e5696197f46b9c3a980930b37c33ca1b3d7b1bdbd061914)
+0025.068 (0) Beginning creation of dump of themes (split every: 400 MB)
+0025.149 (0) Total entities for the zip file: 62 directories, 270 files (0 skipped as non-modified), 15.5 MB
+0025.162 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0025.175 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0029.184 (0) Created themes zip (0) - 14763 KB in 4.1 s (3589.1 KB/s) (sha1: 76efa187bc45786679366195803d1887dc3ebdd1, sha256: f3d507235824381d638ccea05233c0890d5277a4d4ac8618eaebe913ed056859)
+0029.188 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0029.188 (0) Looking for candidates to backup in: D:\Downloads\OSPanel\domains\wordpress/wp-content/uploads
+0029.189 (0) finding files: 2019: adding to list (1)
+0029.190 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0029.219 (0) Total entities for the zip file: 3 directories, 125 files (0 skipped as non-modified), 35.4 MB
+0029.231 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.1 MB, 125 files batched, 97 (97) added so far); re-opening (prior size: 0 KB)
+0031.793 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3 s, rate: 8437.4 KB/s)
+0031.794 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.1698350906372, normalised_time=3.034094035552, max_time=31.792992115021, data points known=1, old_max_bytes=26214400, new_max_bytes=164813786)
+0031.797 (0) Zip: backup_2019-03-05-1630_lubvi_80be7267643b-uploads.zip.tmp: 100 files added (on-disk size: 26197.2 KB)
+0032.978 (0) Created uploads zip (0) - 35475.4 KB in 3.8 s (9372.3 KB/s) (sha1: 00e1d5b726c8e8d8e7d771a74a547c73f2c843d1, sha256: b43558505dd3797cd842c81de1f58ce9c1c39a45edd1fa4fb64ff8a39ab58c66)
+0032.994 (0) Beginning backup of other directories found in the content directory (index: 0)
+0032.996 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0032.996 (0) Looking for candidates to backup in: D:\Downloads\OSPanel\domains\wordpress/wp-content
+0032.997 (0) finding files: advanced-cache.php: adding to list (1)
+0032.998 (0) finding files: cache: skipping: excluded by options
+0032.998 (0) finding files: index.php: adding to list (2)
+0032.999 (0) finding files: languages: adding to list (3)
+0033.000 (0) finding files: plugins: skipping: this is the plugins directory
+0033.001 (0) finding files: themes: skipping: this is the themes directory
+0033.001 (0) finding files: updraft: skipping: this is the updraft directory
+0033.002 (0) finding files: upgrade: skipping: excluded by options
+0033.003 (0) finding files: uploads: skipping: this is the uploads directory
+0033.004 (0) finding files: wp-cache-config.php: adding to list (4)
+0033.023 (0) Total entities for the zip file: 3 directories, 34 files (0 skipped as non-modified), 2.8 MB
+0033.756 (0) Created others zip (0) - 731.6 KB in 0.7 s (975.7 KB/s) (sha1: 4c0769ca3dda8452641765b7640239faf80d910a, sha256: bf513c2348eda50469ddeaf3ca87faa2b8410445bba721a6767a09971d51dbb6)
+0033.768 (0) Saving backup status to database (elements: 8)
+0033.770 (0) No database backup (wp) - not part of this run
+0033.773 (0) backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0033.774 (0) backup_2019-03-05-1630_lubvi_80be7267643b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0033.774 (0) backup_2019-03-05-1630_lubvi_80be7267643b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0033.775 (0) backup_2019-03-05-1630_lubvi_80be7267643b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0033.776 (0) Saving backup history. Total backup size: 59.8 MB
+0033.780 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0033.782 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0033.783 (0) No remote despatch: user chose no remote backup service
+0033.784 (0) Recording as successfully uploaded: backup_2019-03-05-1630_lubvi_80be7267643b-plugins.zip
+0033.786 (0) Recording as successfully uploaded: backup_2019-03-05-1630_lubvi_80be7267643b-themes.zip
+0033.787 (0) Recording as successfully uploaded: backup_2019-03-05-1630_lubvi_80be7267643b-uploads.zip
+0033.789 (0) Recording as successfully uploaded: backup_2019-03-05-1630_lubvi_80be7267643b-others.zip
+0033.793 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0033.794 (0) Number of backup sets in history: 3; groups (db): 1
+0033.795 (0) Examining (for databases) backup set with group_id=0, nonce=80be7267643b, datestamp=1551792626 (Mar 05 2019 13:30:26)
+0033.796 (0) Examining (for databases) backup set with group_id=0, nonce=e0bab7d4152e, datestamp=1551776307 (Mar 05 2019 08:58:27)
+0033.796 (0) Examining (for databases) backup set with group_id=0, nonce=0fed154d1692, datestamp=1551773487 (Mar 05 2019 08:11:27)
+0033.796 (0) Number of backup sets in history: 3; groups (files): 1
+0033.796 (0) Examining (for files) backup set with nonce=80be7267643b, datestamp=1551792626 (Mar 05 2019 13:30:26)
+0033.796 (0) This backup set is the backup set just made, so will not be deleted.
+0033.797 (0) This backup set is the backup set just made, so will not be deleted.
+0033.797 (0) This backup set is the backup set just made, so will not be deleted.
+0033.797 (0) This backup set is the backup set just made, so will not be deleted.
+0033.798 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0033.798 (0) Examining (for files) backup set with nonce=e0bab7d4152e, datestamp=1551776307 (Mar 05 2019 08:58:27)
+0033.798 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0033.798 (0) Examining (for files) backup set with nonce=0fed154d1692, datestamp=1551773487 (Mar 05 2019 08:11:27)
+0033.798 (0) themes: over retain limit (2); will delete this file entity
+0033.798 (0) Delete file: backup_2019-03-05-1111_lubvi_0fed154d1692-themes.zip, service=none
+0033.799 (0) Deleting local copy (backup_2019-03-05-1111_lubvi_0fed154d1692-themes.zip)
+0033.801 (0) This backup set is now empty; will remove from history
+0033.802 (0) Deleting log file (log.0fed154d1692.txt)
+0033.803 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0033.806 (0) Resume backup (80be7267643b, 0): finish run
+0033.808 (0) Decremented the semaphore (f) by 1
+0033.809 (0) Semaphore (f) unlocked
+0033.809 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0033.813 (0) No email will/can be sent - the user has not configured an email address.
+0033.814 (0) The backup apparently succeeded and is now complete

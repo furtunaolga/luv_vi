@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant');
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Cormorant', sans-serif;
+    color: black;
+}
+
+/*------------------------
+    Navigation Section
+--------------------------*/
+
+.navbar {
+    padding: 0 5%;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar-nav li {
+    padding-left: 1em;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    color: #212529;
+}
+
+.navbar-light {
+    background-color: white;
+
+}
+
+.navbar ul>li>a {
+    text-transform: uppercase;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    padding-bottom: 0.2em;
+}
+
+.display-4 {
+    font-size: 40px;
+}
+
+/*.carousel {
+    width: 90%;
+    margin: 0 auto;
+}*/
+
+.home-slider {
+    height: 500px;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-inner img {
+    height: 100%;
+}
+
+@media (min-width: 1100px) {
+    .carousel-inner img {
+        width: 100%;
+    }
+}
+
+.jumbotron {
+    padding: 5%;
+    border-radius: 0px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+}
+
+.padding {
+    padding-bottom: 2em;
+}
+
+.alert {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2em;
+
+}
+
+.alert hr {
+    border-top: 2px solid #f0f0f0;
+    width: 95%;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+
+}
+
+.portfolio {
+    padding: 0 5%;
+}
+
+.portfolio img {
+    width: 90%;
+}
+
+.about img {
+    width: 90%;
+}
+
+
+
+.alb {
+    height: 500px;
+}
+
+.alb div {
+    position: relative;
+    height: 75%; 
+    width: 90%;
+}
+
+.alb .img-darkerer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: all 124ms linear;
+}
+
+.alb .img-darkerer:hover {
+    opacity: 1;
+}
+
+.alb img {
+    object-fit: cover;
+    height: 100%; 
+    width: 100%;
+}
+
+/* .alb img:hover {
+    transform: scale(1.05);
+} */
+
+
+
+
+
+
+
+.instacarousel {
+    padding: 0 5%;
+}
+
+.instacarousel img {
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.lead {
+    padding-right: 5%;
+}
+
+.btn-contact {
+    border-radius: 0px;
+    background-color: inherit;
+    border: 1px solid #89929B;
+    margin: 10px;
+}
+
+.subheader {
+    text-transform: uppercase;
+    font-style: italic;
+    color: #89929B;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* -----------------------
+PRICING
+-------------------------*/
+
+.pricing {
+    padding: 0 5%;
+}
+
+.pricing-container {
+    display: table;
+    width: 100%;
+    height: 600px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.pricing-container.img-1 {
+    background: url(/wp-content/themes/lubvi/img/pricing/pr-1.png) no-repeat;
+}
+
+.pricing-container.img-2 {
+    background: url(/wp-content/themes/lubvi/img/pricing/pr-2.png) no-repeat;
+}
+
+.pricing-container.img-3 {
+    background: url(/wp-content/themes/lubvi/img/pricing/pr-3.png) no-repeat;
+}
+
+.pricing-text {
+    color: #FFFFF9;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 1;
+}
+
+.pricing-text h1 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.pricing-text h4 {
+    font-size: 30px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+.pricing-text ul {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-size: 20px;
+    margin-top: 0px;
+    list-style-type: none;
+}
+
+.btn-book {
+    border-radius: 0px;
+    background-color: inherit;
+    border: 1px solid #FFFFF9;
+    margin: 10px;
+    color: #FFFFF9;
+    font-size: 20px;
+}
+
+.btn-book:hover {
+    background-color: white;
+    color: #000;
+    border: none;
+}
+
+button:focus {
+    outline:none !important;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+
+.testimonial {
+    padding: 0 5%;
+}
+
+.testimonial img {
+    width: 50%;
+    border-radius: 50%;
+    height: auto;
+}
+
+.testimonial p {
+    text-align: center;
+    color: #89929B;
+    flex-direction: column;
+    align-self: center;
+}
+
+.testimonial h4 {
+    text-align: center;
+    color: #89929B;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    color: #89929B;
+    font-size: 40px;
+}
+
+.faq {
+    padding: 0 10%;
+}
+
+.panel-title a {
+    font-style: italic;
+    color: #565353;
+    font-size: 25px;
+}
+
+.panel-title img {
+    height: 25px;
+}
+
+#collapse-group {
+    width: 100%;
+}
+
+.panel-body {
+    margin: 0 2%;
+    font-size: 20px;
+    color: #89929B;
+}
+
+hr.my-4 {
+    background-color: F6F6F6;
+    width: 100%;
+}
+
+/*------------------------
+    Contact Section
+--------------------------*/
+
+.contact {
+    padding: 0 15%;
+    justify-content: center;
+
+}
+
+@media (max-width: 1200px) {
+    .contact {
+        padding: 0 5% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact {
+        padding: 0 1% !important;
+    }
+
+    .contact-col-1 {
+        height: 500px !important;
+  }
+}
+
+  @media  (max-width: 360px) {
+       .contact-text span {
+        margin: 30% 6% !important;
+        width: 88% !important;
+    }
+  }
+
+.contact-col-1,
+.contact-col-2 {
+    margin: 0 3% 5%;
+    position: inherit;
+    height: 740px;
+    min-height: 600px;
+    background-color: rgb(235, 232, 228); 
+}
+
+.wrap {
+    align-content: center;
+}
+
+.contact-col-1 {
+    background-image: url("/wp-content/themes/lubvi/img/contact/background.jpg") !important; 
+    background-position: center ; 
+    background-repeat: no-repeat ; 
+    background-size: cover ;
+}
+
+.contact-col-2 {
+    padding: 5% 7%;
+}
+
+
+.contact-text a {
+    font-size: 18px;
+}
+
+.contact-text span {
+    margin: 30% 20%;
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px 20px;
+}
+
+.contact-text span h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.contact-text span p {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.btn-sendmes {
+    background-color: #344e49;
+    color: white;
+    border-radius: 0px;
+    width: 100%;
+    padding: 16px 45px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2A3734;
+}
+
+.form-control {
+    border-radius: 0;
+    padding: 16px 20px;
+    box-shadow: none;
+    display: block;
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 25px;
+}
+
+.form-row {
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+
+
+
+/*------------------------
+    Portfolio Section
+--------------------------*/
+
+
+.column {
+    display: none;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    /* Hide columns by default */
+}
+
+.column img {
+    padding-bottom: 5%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: flex;
+}
+
+/* Style the buttons */
+.btn-port {
+    margin: 5px 10px;
+    cursor: pointer;
+    color: #1B253F;
+}
+
+/* Add a grey background color on mouse-over */
+.btn-port:hover {
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
+    line-height: 1;
+}
+
+/* Add a dark background color to the active button */
+.btn-port.active {
+    color: #000;
+}
+
+/* Clear floats after rows?????? */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn-port-container {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.instagram-pics {
+    list-style: none;
+    margin: 0 5%;
+}
+
+.instagram-pics li {
+    float: left;
+    width: 25%;
+}
+
+.instagram-pics a img {
+    transition: opacity 124ms linear, transform 124ms linear;
+    /* Плавное изменение прозрачности и увеличения */
+    width: 100%;
+}
+
+.instagram-pics li img {
+    width: 90%;
+}
+
+.instagram-pics li a:hover img {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
